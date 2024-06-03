@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:theme="@style/Theme.AppCompat.Light"
+    android:background="@drawable/machines">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="left"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="20dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:padding="55dp"
+                android:gravity="center_horizontal"
+                android:elevation="18dp"
+                android:background="@drawable/custom_translucent_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lgtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/login"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="34sp" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:autofillHints="Username"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableStart="@drawable/baseline_face_24"
+                    android:drawablePadding="9dp"
+                    android:hint="@string/uname"
+                    android:padding="8dp"
+                    android:textColorHighlight="@color/cardview_dark_background" />
+
+                <ProgressBar
+                    android:id="@+id/pbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    />
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:autofillHints="Password"
+                    android:background="@drawable/custom_edittext"
+                    android:drawableStart="@drawable/baseline_anchor_24"
+                    android:drawablePadding="9dp"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:textColorHighlight="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/submit_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/yellow"
+                    android:text="@string/login"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/signin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/signin"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

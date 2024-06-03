@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TableLayout>
+
+            <Button
+                android:id="@+id/final_submit"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/biblue"
+                android:layout_height="wrap_content"
+
+                android:text="@string/submit"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

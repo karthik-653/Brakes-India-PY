@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="70dp"
+            android:layout_margin="30dp"
+            android:layout_marginTop="20dp">
+
+            <!-- Spinner A -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plant"
+                    android:padding="28dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:popupBackground="@color/white"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner B -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unit"
+                    android:fontFamily="@font/montserrat"
+
+                    android:padding="31dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat"
+
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner C -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell Type"
+                    android:textColor="@android:color/black"
+                    android:padding="16dp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_c"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner D -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell number"
+                    android:fontFamily="@font/montserrat"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner E -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model"
+                    android:padding="26dp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_e"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/montserrat"
+
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner F -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Process"
+                    android:fontFamily="@font/montserrat"
+
+                    android:padding="16dp"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_f"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:fontFamily="@font/montserrat"
+
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/date_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pick date"
+                android:fontFamily="@font/montserrat"
+
+                android:textColor="@color/white"
+                android:backgroundTint="@color/biblue" />
+
+            <Button
+                android:id="@+id/submit_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/submit"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat"
+
+                android:textColor="@color/white"
+                android:backgroundTint="@color/biblue" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

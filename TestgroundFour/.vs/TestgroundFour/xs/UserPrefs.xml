@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{7F649CB7-2B2F-4442-B0CC-8880D1F9FF05}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestgroundFour PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ApproversideController.cs">
+    <Files>
+      <File FileName="Models/Clientside.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Controllers/ClientsideController.cs" Line="418" Column="16" />
+      <File FileName="Controllers/ApproversideController.cs" Line="240" Column="14" />
+      <File FileName="Properties/launchSettings.json" Line="19" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestgroundFour">
+            <Node name="TestgroundFour">
+              <Node name="Controllers">
+                <Node name="ApproversideController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

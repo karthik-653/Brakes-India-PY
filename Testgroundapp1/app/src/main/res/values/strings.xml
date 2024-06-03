@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Poka Yoke</string>
+    <string name="login">Login</string>
+    <string name="uname">userID</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="signup">Sign Up</string>
+    <string name="submit">submit</string>
+    <string name="signin">Sign in for new user</string>
+    <string name="password">password</string>
+    <string name="welcome">Welcome to home page</string>
+    <string name="Unit">Enter Unit</string>
+    <string name="Line">Enter Line</string>
+    <string name="Machine">Enter Machine</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="TODO">TODO</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Update Poka-Yoke</string>
+    <string name="menu_slideshow">Poka-Yoke Master Maintenance</string>
+    <string name="py">POKA YOKE</string>
+    <string name="content">
+        Poka-yoke roughly means "avoid unexpected surprises" or "avoid blunders" in Japanese.
+        In English, a poka-yoke is sometimes referred to as "mistake-proof" or "foolproof."
+        Essentially, a poka-yoke is a safeguard that prevents a process from proceeding to the
+        next step until the proper conditions have been met.
+    </string>
+
+    <string name="mp">
+        WHEN TO USE MISTAKE PROOFING?
+    </string>
+    <string name="mpcontent">
+        Mistake-proofing, is crucial when processes are susceptible to human error or variation. It\'s
+        essential in scenarios where errors could lead to defects, delays, or safety hazards.
+        Poka-yoke is especially valuable in manufacturing, service industries, and complex workflows where
+        human intervention is pivotal.\n
+        \n
+        By implementing poka-yoke techniques, organizations can ensure product quality,
+        enhance operational efficiency, and mitigate risks associated with errors.
+        Whether in assembly lines, customer service interactions, or data entry tasks,
+        poka-yoke mechanisms prevent mistakes by design, fostering a culture of continuous
+        improvement and reliability in diverse operational environments.\n
+        \n
+        The safety-critical nature of brake systems necessitates meticulous attention to detail
+        and error prevention. Poka-yoke techniques help in ensuring that components are correctly
+        assembled, preventing defects like misalignments or improper installations that could
+        compromise braking performance.
+    </string>
+    <string name="title_activity_navigationdrawer">Navigationdrawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

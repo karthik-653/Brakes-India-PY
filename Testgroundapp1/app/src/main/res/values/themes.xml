@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Testgroundapp1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/biblue</item>
+        <item name="colorPrimaryVariant">@color/biblue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/biblue</item>
+        <item name="colorSecondaryVariant">@color/biblue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Testgroundapp1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Testgroundapp1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Testgroundapp1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="datetheme" parent="Theme.Material3.Light.Dialog">
+        <item name="colorAccent">@color/biblue</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="55dp"
+            android:layout_margin="30dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/date_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick date"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/biblue" />
+
+            <!-- Spinner A -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plant"
+                    android:layout_marginHorizontal="38dp"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:popupBackground="@color/white"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner B -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unit"
+                    android:layout_marginHorizontal="43dp"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner C -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell Type"
+                    android:layout_marginHorizontal="25dp"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_c"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner D -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cell number"
+                    android:layout_marginHorizontal="14dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner E -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model"
+                    android:layout_marginHorizontal="34dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_e"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+            <!-- Spinner F -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="27dp"
+                    android:text="Process"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_f"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:minHeight="48dp"
+                    android:prompt="@string/login" />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/submit_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/biblue"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
